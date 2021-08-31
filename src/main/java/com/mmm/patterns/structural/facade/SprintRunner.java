@@ -14,6 +14,7 @@ public class SprintRunner {
 //        bugTracker.finishSprint();
 //        developer.doJobBeforeDeadline(bugTracker);
 
+        //using facade pattern
         WorkFlow workFlow = new WorkFlow();
         workFlow.solveProblems();
     }
